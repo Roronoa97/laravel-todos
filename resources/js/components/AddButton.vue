@@ -1,0 +1,33 @@
+<template>
+    <button
+    type="button"
+    data-toggle="modal"
+    data-target="#modalTodo"
+    class="btn d-flex justify-content-center align-items-center shadow bg-white">    
+        Add
+        <span class="d-flex align-items-center ml-3">
+            <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="20" height="20" viewBox="0 0 24.883 24.883">
+                <defs>
+                    <linearGradient id="linear-gradient" x1="0.321" y1="0.352" x2="0.753" y2="0.666" gradientUnits="objectBoundingBox">
+                    <stop offset="0" stop-color="#a72e8f"/>
+                    <stop offset="1" stop-color="#222878"/>
+                    </linearGradient>
+                </defs>
+                <path id="Path_1" data-name="Path 1" d="M9.514,21.955V15.369H2.927a2.927,2.927,0,0,1,0-5.855H9.514V2.927a2.927,2.927,0,0,1,5.855,0V9.514h6.586a2.927,2.927,0,0,1,0,5.855H15.369v6.586a2.927,2.927,0,0,1-5.855,0Z" fill="url(#linear-gradient)"/>
+            </svg>
+        </span>
+    </button>
+</template>
+
+<style scoped>
+button{
+    font-size: 18px; 
+    font-weight: 400;
+    border-radius: 15px;
+    position: fixed;
+    right: 50px;
+    top: 30px;
+    color: #902D8B;
+    z-index: 9999;
+}
+</style>
